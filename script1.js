@@ -302,33 +302,44 @@
 //     document.close();
 // }
 
-// mouse events
+//mouse events
 // click onclick
-function onMouseOver(){
-   console.log("On Mouse Over");
-}
-function onMouseOut()
-/{
-   console.log("On Mouse Out");
-}
- function onMouseDown()
- {
-   console.log("On Mouse Down");
-}
- function onMouseUp()
- {
-   console.log("On Mouse Up");
-}
+// function onMouseOver(){
+//    console.log("On Mouse Over");
+// }
+// function onMouseOut()
+// {
+//    console.log("On Mouse Out");
+// }
+// function onMouseDown()
+// {
+//    console.log("On Mouse Down");
+// }
+// function onMouseUp()
+// {
+//    console.log("On Mouse Up");
+// }
 
-function onMouseMove()
- {
-    console.log("On Mouse Move");
- }
+// function onMouseMove()
+// {
+//    console.log("On Mouse Move");
+// }
 
-// keyboard events           onkeydown onkeyUp onkeypress
-// form events                onfocus onsubmit onblur onchange  
+//keyboard events           onkeydown onkeyUp onkeypress
+//form events                onfocus onsubmit onblur onchange  
 // addEventListener
 
+const x=document.querySelector("input");
+     x.addEventListener('focus',onhandlefocus);
+     x.addEventListener('blur',onhandleblur);
+
+     function  onhandlefocus(){
+            x.style.background="red";
+         }
+    function onhandleblur()
+    {
+        x.style.background="red";
+    }
 
 
         
