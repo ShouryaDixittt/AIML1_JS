@@ -106,3 +106,33 @@ var x=6;
 var y=3;
 document.write(x=10 && y>1); // true
 document.write("<br/>");
+
+//for loop
+var count;
+document.write("Starting Loop"+"<br/>");
+for(count=0;count<10;count++)
+{
+    document.write("Current Count:"+count);
+    document.write("<br/>");
+}
+document.write("Loop stopped!");
+
+const person1 = {
+    fname:"Ajay",
+    lname:"Singh",
+    age:25
+    };
+for (let x in person1){
+    console.log("Person details:"+ x +":"+ person1[x])
+}
+
+// while loop
+var count1=0;
+document.write("Starting Loop"+"<br/>");
+
+
+
+
+        
+
+         
