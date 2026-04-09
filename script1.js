@@ -1,21 +1,21 @@
-// // console.log("Hello World");
-// document.write('This is my first JavaScript Page');
+// console.log("Hello World");
+document.write('This is my first JavaScript Page');
 
-// var num=10;
-// console.log(num);
-// console.log(typeof(num));
-// num=false;
-// console.log(num);
-// console.log(typeof(num));
-// num="Hello";
-// console.log(num);
-// console.log(typeof(num));
-// num=null;
-// console.log(num);
-// console.log(typeof(num));
-// num=undefined;
-// console.log(num);
-// console.log(typeof(num));
+var num=10;
+console.log(num);
+console.log(typeof(num));
+num=false;
+console.log(num);
+console.log(typeof(num));
+num="Hello";
+console.log(num);
+console.log(typeof(num));
+num=null;
+console.log(num);
+console.log(typeof(num));
+num=undefined;
+console.log(num);
+console.log(typeof(num));
 
 // //function
 // var sayHello=function(){
@@ -329,17 +329,22 @@
 //form events                onfocus onsubmit onblur onchange  
 // addEventListener
 
-const x=document.querySelector("input");
-     x.addEventListener('focus',onhandlefocus);
-     x.addEventListener('blur',onhandleblur);
+// const x=document.querySelector("input");
+//      x.addEventListener('focus',onhandlefocus);
+//      x.addEventListener('blur',onhandleblur);
 
-     function  onhandlefocus(){
-            x.style.background="red";
-         }
-    function onhandleblur()
-    {
-        x.style.background="red";
-    }
+//      function  onhandlefocus(){
+//             x.style.background="red";
+//          }
+//     function onhandleblur()
+//     {
+//         x.style.background="red";
+//     }
+
+    
+
+
+   
 
 
         
