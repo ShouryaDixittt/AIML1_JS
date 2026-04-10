@@ -215,9 +215,93 @@ add2(102,20);
 var add3=(a,b)=>console.log(a+b);
 add3(30,20);
 
+//object
+var pers=
+{
+    name:"John",
+    age:30,
+    isMarried:true,
+    address:{
+        street:'Vinay nagar',
+        flatNo:201
+    }
+};
+for (let x in pers){
+    console.log("Person is married: " + pers["isMarried"])
+}
 
+var pers2= new Object();
+    pers2.name='Krishna';   //to add properties to this object
+    pers2.age=32;
+    pers2.isMarried=true;
+    pers2.address={};    //declare first
+    pers2.address.street='nagar road';  //then initialise
+    pers2['address']['flatNo']=33;
+    console.log(pers2)
 
-    
+    var myinfo=new Array();
+    var myinfo1=Array();
+    console.log(myinfo,myinfo1);     //same creation in js with or without new keyword
 
+    let collection=[
+        {},      //function
+        [],         //object
+        true,
+        "john",
+        function () {},
+        9000989193,
+        undefined,
+        null,
+        new String("abc"),    //object
+        new Date(),
+    ];
+    console.log(collection);
+    collection.teacherName="John Mac";
+    collection.phoneNo=9500008193;
+    // length of array does not change 
+    // since it is not inserted it is increased property wise
 
-   
+    var trainerinfo=["Jitendra",29,"Ghaziabad",{isMarried:true}];
+    console.log(trainerinfo);
+
+    console.log(trainerinfo[trainerinfo.length-1]);
+
+    console.log(trainerinfo[trainerinfo.length]);
+    trainerinfo.contact=9971660499;
+    console.log(trainerinfo);
+
+    const result=document.getElementById("para");   //unique so only 1 element
+    result.innerHTML="my self";
+    result.title="myname";
+    console.log(result);
+
+  const result2=document.getElementsByClassName("heading");
+  result2.innerHTML="hii";
+
+ const result3=document.getElementsByTagName("p");
+ result3[2].innerHTML="this is a pet";
+ result3[1].style.color="blue";
+ result3[1].innerText="my paragraph";
+
+ const test=document.querySelector("ul li:nth-child(3)");
+ test.style.backgroundColor="green";
+ test.style.padding="10px";
+
+ const text2=document.querySelectorAll("ul li");
+
+ const element=document.getElementById("myH1");
+ let text=element.getAttribute("class");
+ document.getElementById("demo").innerHTML=text;
+
+ function myFunction()
+ {
+ document.getElementById("myH2").setAttribute("class","democlass");
+ }
+
+ const heading=document.createElement("h2");
+ const bodytag=document.getElementByTagName("body"); //element not elements
+ bodytag[0].append();
+ heading.innerText="hello";
+ heading.style.backgroundColor="red";
+
+ 
