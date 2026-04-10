@@ -303,5 +303,58 @@ var pers2= new Object();
  bodytag[0].append();
  heading.innerText="hello";
  heading.style.backgroundColor="red";
+//node.prepend() node.append   (inside)
+// node.before()      node.after()       (outside)
 
- 
+//node.remove()   removes the node
+
+function practice()
+{
+    document.open();
+    document.write("<h1>PRACTICE</h1>");
+    document.close();
+}
+
+mouse events
+click onclick
+function onMouseOver(){
+   console.log("On Mouse Over");
+}
+function onMouseOut()
+{
+   console.log("On Mouse Out");
+}
+function onMouseDown()
+{
+   console.log("On Mouse Down");
+}
+function onMouseUp()
+{
+   console.log("On Mouse Up");
+}
+
+function onMouseMove()
+{
+   console.log("On Mouse Move");
+}
+
+keyboard events           onkeydown onkeyUp onkeypress
+form events                onfocus onsubmit onblur onchange  
+addEventListener
+
+const x=document.querySelector("input");
+     x.addEventListener('focus',onhandlefocus);
+     x.addEventListener('blur',onhandleblur);
+
+     function  onhandlefocus(){
+            x.style.background="red";
+         }
+    function onhandleblur()
+    {
+        x.style.background="red";
+    }
+
+    
+
+
+   
