@@ -143,6 +143,58 @@ if(age>18)
 document.write("<br/>");
 
 
+while(count1<10)
+{
+    document.write("Current Count:"+count1+"<br/>");
+count1++;
+}
+document.write("Loop stopped! <br/>");
+
+// if loop
+var age=20;
+if(age>18)
+{
+    document.write("<b>You are eligible to cast the vote. </b>");
+
+}
+document.write("<br/>");
+
+// if else loop 
+var age1=20;
+if(age1>=18)
+{
+    document.write("<b>You are an adult. </b>");
+}
+else{
+     document.write("<b>You are a minor. </b>");
+}
+ document.write("<br/>");
+// switch case
+
+var grade='A';
+document.write("Entering switch block <br/>");
+switch(grade){
+    case 'A':
+        document.write("Good job<br/>");
+        break;
+    case 'B':
+        document.write("Pretty <br/>");
+        break;
+    case 'C':
+        document.write("Passed<br/>");
+        break;
+    case 'D':
+        document.write("Not so good <br/>");
+        break;
+    case 'F':
+            document.write("Failed <br/>");
+         break;
+    default:
+        document.write("Unknown Grade <br/>");
+}
+document.write("Exiting switch block");
+ document.write("<br/>");
+
 
 
     
