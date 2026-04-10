@@ -195,6 +195,26 @@ switch(grade){
 document.write("Exiting switch block");
  document.write("<br/>");
 
+ //function returning a value
+var res=mul(12,30);
+function mul(x,y)
+{
+    return x*y;
+}
+document.write(res);
+ document.write("<br/>");
+
+ //arrow function
+var add2=(a,b)=>
+{
+    console.log(a+b);
+};
+add2(102,20);
+
+//arrow function for single line parameters
+var add3=(a,b)=>console.log(a+b);
+add3(30,20);
+
 
 
     
