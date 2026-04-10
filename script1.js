@@ -129,10 +129,23 @@ for (let x in person1){
 // while loop
 var count1=0;
 document.write("Starting Loop"+"<br/>");
+count1++;
+}
+document.write("Loop stopped! <br/>");
+
+// if loop
+var age=20;
+if(age>18)
+{
+    document.write("<b>You are eligible to cast the vote. </b>");
+
+}
+document.write("<br/>");
 
 
 
 
-        
+    
 
-         
+
+   
